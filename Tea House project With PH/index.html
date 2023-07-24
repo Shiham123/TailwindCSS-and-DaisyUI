@@ -8,14 +8,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- ! CDN daisyUI -->
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/daisyui/3.3.1/full.css"
       integrity="sha512-DUKNgOKecaBrX3ZG2xzLckFMU6HxPzPfCyzSlE25zqsiLBduEvtOq9jHvEtVlWZUL2vqvgp4ImS6D9TGF9pnLw=="
       crossorigin="anonymous"
     />
-
     <!-- FONt Awesome -->
     <link
       rel="stylesheet"
@@ -23,7 +21,6 @@
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
     />
-
     <!-- ! FONT -->
     <link
       href="https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800"
@@ -37,8 +34,8 @@
   <body class="font-manrope">
     <header class="container mx-auto">
       <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
-          <div>
+        <div class="flex flex-col lg:flex-row gap-40">
+          <div class="mt-[9rem]">
             <h1 class="text-7xl font-extrabold">
               it's good <br />
               tea time at the <br />
@@ -48,15 +45,15 @@
               Tea and Botanical Solutions Supplier Give Optimum <br />
               Satisfaction To Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore more</button>
+            <button class="">Explore more</button>
           </div>
 
           <div class="relative">
-            <img src="./images/banner.png" class="max-w-sm" />
+            <img src="./images/banner.png" class="w-[45rem]" />
 
             <!-- ! rating badge -->
             <div
-              class="flex items-center gap-5 drop-shadow-lg bg-white p-5 w-60 rounded-xl absolute -bottom-[3rem] left-0"
+              class="flex items-center gap-5 drop-shadow-lg bg-white p-5 w-60 rounded-xl absolute -bottom-[1rem] left-0"
             >
               <i class="fa-solid fa-star fa-2x text-[#FFF082]"></i>
               <div>
@@ -83,13 +80,15 @@
         </p>
       </section>
 
-      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12">
+      <section
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-12"
+      >
         <!-- Card one -->
         <div
           class="card bg-base-100 shadow-xl bg-gradient-to-t from-[#f4f4f480] to-[#F4F4F4]"
         >
           <figure>
-            <img class="p-8" src="./images/tea-1.png" alt="Tea one" />
+            <img class="lg:p-8" src="./images/tea-1.png" alt="Tea one" />
           </figure>
           <div class="card-body">
             <h2
@@ -111,7 +110,7 @@
           class="card bg-base-100 shadow-xl bg-gradient-to-t from-[#f4f4f480] to-[#F4F4F4]"
         >
           <figure>
-            <img class="p-8" src="./images/tea-2.png" alt="Tea one" />
+            <img class="lg:p-8" src="./images/tea-2.png" alt="Tea one" />
           </figure>
           <div class="card-body">
             <h2
@@ -133,7 +132,7 @@
           class="card bg-base-100 shadow-xl bg-gradient-to-t from-[#f4f4f480] to-[#F4F4F4]"
         >
           <figure>
-            <img class="p-8" src="./images/tea-3.png" alt="Tea one" />
+            <img class="lg:p-8" src="./images/tea-3.png" alt="Tea one" />
           </figure>
           <div class="card-body">
             <h2
@@ -155,7 +154,7 @@
           class="card bg-base-100 shadow-xl bg-gradient-to-t from-[#f4f4f480] to-[#F4F4F4]"
         >
           <figure>
-            <img class="p-8" src="./images/tea-1.png" alt="Tea one" />
+            <img class="lg:p-8" src="./images/tea-1.png" alt="Tea one" />
           </figure>
           <div class="card-body">
             <h2
@@ -171,6 +170,76 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <!-- *************** great tea ******************* -->
+      <!-- ################################### -->
+
+      <section
+        class="flex flex-col lg:flex-row my-[10rem] justify-center lg:gap-[20rem]"
+      >
+        <div
+          class="grid gap-8 md:gap-8 lg:gap-8 sm:grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 ml-[6rem]"
+        >
+          <div
+            class="bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-10 w-[14.875rem] h-[9.75rem] lg:col-start-1 lg:row-start-1 rounded-lg"
+          ></div>
+          <div
+            class="lg:row-start-2 lg:row-span-2 bg-[#5776391a] w-[14.875rem] h-[22.1875rem]"
+          >
+            <img src="./images/fresh-1.png" alt="" class="p-[2.8125rem]" />
+          </div>
+          <div
+            class="lg:row-start-1 lg:col-start-2 lg:row-span-2 bg-[#e6a6231a] w-[14.875rem] h-[22.1875rem]"
+          >
+            <img src="./images/fresh-2.png" alt="" class="p-[2.8125rem]" />
+          </div>
+          <div
+            class="bg-gradient-to-r from-[#D9D9D9] to-[#ffffff00] w-[14.875rem] h-[10rem] rounded-lg lg:col-start-2 lg:row-start-3 lg:row-span-1"
+          ></div>
+        </div>
+
+        <!-- ************************************ -->
+        <div>
+          <h3 class="text-[#1C1C1C] text-[45px] font-extrabold">
+            Great Tea, Freshly <br />
+            Presented
+          </h3>
+          <p
+            class="text-[#777777] text-[1rem] leading-[1.75rem] font-medium mt-6"
+          >
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor <br />
+            from all possessions . It represents the highest quality and self
+            expectation. <br />
+            Establishing in 2006, Gong cha had been deeply appreciated by its
+            custoers <br />
+            because of good words of mouth and unique customized service
+            orginated <br />
+            from Taiwan.
+          </p>
+          <h4 class="text-[#1C1C1C] text-[1.25rem] font-extrabold mt-6">
+            Unique Taste
+          </h4>
+          <p class="text-[#777777] text-[1rem] leading-[1.75rem] font-medium">
+            A Unique and different style from other teapots gives a <br />
+            luxurious and minimalist impression
+          </p>
+          <h4 class="text-[#1C1C1C] text-[1.25rem] font-extrabold mt-6">
+            Premium Quality
+          </h4>
+          <p class="text-[#777777] text-[1rem] leading-[1.75rem] font-medium">
+            Premium Quality that makes tea more elegant and more <br />
+            durable when you use it.
+          </p>
+        </div>
+      </section>
+
+      <!-- *************** ******************* -->
+      <!-- ################################### -->
+
+      <section>
+        
       </section>
     </main>
     <footer></footer>
